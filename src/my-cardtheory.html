@@ -5,7 +5,7 @@
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
 
 
-<dom-module id="my-home">
+<dom-module id="my-cardtheory">
 
   <template>
 
@@ -16,7 +16,7 @@
       background-color: #eee;
     }
     app-box {
-      height: 340px;
+      height: 500px;
     }
     .second {
       --app-box-background-front-layer: {
@@ -46,13 +46,25 @@
       };
     }
     article {
-      max-width: 500px;
+      max-width: 700px;
       text-align: center;
-      margin: 100px auto;
+      margin: 50px auto;
     }
     article h2 {
       font-weight: 100;
       font-size: 50px;
+      margin: 5px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+     article h1 {
+      font-weight: 100;
+      font-size: 70px;
+      margin: 5px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    article h3 {
+      font-weight: 200;
+      font-size: 30px;
       margin: 5px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
@@ -75,11 +87,8 @@
 
   <section>
     <article>
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 649.75 250.18"><defs><style>.cls-1{font-size:231.91px;fill:#333;stroke:#333;stroke-miterlimit:10;font-family:Gill Sans;}.cls-2{letter-spacing:-6px;}.cls-3{fill:none;stroke:#f05455;stroke-width:14px;}</style></defs><title>deko-logo-slogon-master</title><text class="cls-1" transform="translate(187.8 196.12)">de<tspan class="cls-2" x="229.31" y="0">k</tspan><tspan x="333.49" y="0">o</tspan></text><rect class="cls-3" x="25.84" y="16.86" width="134.09" height="174.51"/><rect class="cls-3" x="7" y="34.04" width="134.09" height="174.51"/><text x="-27.38" y="-15.72"/></svg>
-      <p>Shares & Organises Websites - Fast</p>
-      <p>Free to Get Started to Use with no account</p>      
-      <paper-button raised>Have a deko</paper-button>
-      
+      <h1>Card Theory</h1>
+      <h3>Universal Language of Sharing Information</h3>      
     </article>
     <app-box effects="parallax-background">
       <!-- 
@@ -94,10 +103,8 @@
   <section>
     <article>
       <hr />
-      <h2>How It Works</h2>
-      <p>Each deko has a max of 10 Websites represented as cards.</p>
-      <p>Each card is a link to the Website.</p>
-      <p>You can Create, Share, Add and Organise your dekos how you wish </p>
+      <h2>Universal</h2>
+      <p>Try and find a modern culture where cards are now used, played, exchanged, traded, brought, left, given, gifted. It tried. Before the internet cards where a unverisal way to exchange information. They had value. They were kept, honoured. We needed to find a way to make the web simple. Using the language of cards we think we have.</p>
     </article>
     <!-- 
       This app-box uses the class `.second` and the mixin `--app-box-background-front-layer` to assign the background image. 
@@ -108,10 +115,8 @@
   <section>
     <article>
       <hr />
-      <h2>For You</h2>
-      <p>Organise the sites you use the most often every time you use the web with our Chrome extension. 
-Have a list of sites of all your social media profiles so your friends know all the places you are. 
-</p>
+      <h2>Organise</h2>
+      <p>They have been used in taxonomy for centuries. Before computers libraries used them as the primary way of organising information. Even in the earliest computers cards where used to store data.</p>
     </article>
     <app-box class="third" effects="parallax-background"></app-box>
   </section>
@@ -119,8 +124,8 @@ Have a list of sites of all your social media profiles so your friends know all 
   <section>
     <article>
       <hr />
-      <h2>For Friends</h2>
-      <p>Share your favorites. List of places to go. Create your own deko of top tens. Your imagination.</p>
+      <h2>Why Use Card Theory</h2>
+      <p>We wanted a way to Organise and Share information even with people who found the internet scary using a language anyone would understand. This is all part of Hi9's the company that built this platform service to simplyfy the web. We need a framework to do this. Card Theory is what I came up with</p>
     </article>
     <app-box class="fourth" effects="parallax-background"></app-box>
   </section>
@@ -128,18 +133,8 @@ Have a list of sites of all your social media profiles so your friends know all 
   <section>
     <article>
       <hr />
-      <h2>For Family</h2>
-      <p>Organise the sites that your family uses so they don’t need to search the web. You no longer have to be your parents tech support. </p>
-    </article>
-    <app-box class="fourth" effects="parallax-background"></app-box>
-  </section>
-
-   <section>
-    <article>
-      <hr />
-      <h2>For Work</h2>
-      <p>Organise and share for co workers sites they should visit. Host and event and share information to the attendees quickly and easily. 
-</p>
+      <h2>Where Did the Inspiration Come From</h2>
+      <p>I was a casino dealer in my younger years. I noticed working in an internation casino that no matter the culture or language everyone could quickly understand what cards meant and how they were used. It was an easy fit to use that same framework with what we do</p>
     </article>
     <app-box class="fourth" effects="parallax-background"></app-box>
   </section>
@@ -152,7 +147,7 @@ Have a list of sites of all your social media profiles so your friends know all 
   <script>
     Polymer({
 
-      is: 'my-home'
+      is: 'my-cardtheory'
 
     });
   </script>

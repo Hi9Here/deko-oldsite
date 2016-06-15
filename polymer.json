@@ -5,6 +5,7 @@
     "src/my-home.html",
     "src/my-contactus.html",
     "src/my-newaccount.html",
-    "src/my-dekos.html"   
+    "src/my-dekos.html",
+    "src/my-cardtheory.html",        
   ]
 }
