@@ -1,0 +1,117 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/iron-icons/communication-icons.html">
+
+
+
+<dom-module id="my-contactus">
+
+  <template>
+
+    <style>
+      :host {
+        display: block;
+        padding: 10px;
+      }
+      .card {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        margin: 12px;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #757575;
+        width: 150px;
+        height: 200px;
+        display: inline-block
+      }
+      h1 {
+        font-size: 20px;
+        margin: 16px 0;
+        color: #333;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 300;
+      }
+      a {
+        text-decoration: none;
+      }
+      img {
+        height: 100px;
+      }
+      iron-icon {
+        height: 100px;
+        width: 100px;
+        color: #FF5252;
+      }
+      .cardtop {
+        text-align: center;
+        height: 100px;
+      }
+      .cardbottom {
+        margin-top: 50px;
+        text-align: center;
+        height: 50px;
+      }
+      body {
+        text-align: center;
+        padding: 50px;
+      }
+    </style>
+
+    <body>
+      <a href="mailto:wo@hi9.io">
+    <div class="card"> 
+      <div class="cardtop">
+        <iron-icon icon="communication:email"></iron-icon>   
+      </div>   
+      <div class="cardbottom">
+        <h1>wo@hi9.io</h1>
+      </div>
+    </div>
+    </a>
+
+    <a href="tel:44-736-732324">
+    <div class="card">  
+      <div class="cardtop">
+        <iron-icon icon="communication:phone"></iron-icon>  
+      </div>
+      <div class="cardbottom">
+        <h1>+44 1736 732324</h1>
+      </div>
+    </div>
+    </a>
+
+    <a href="https://facebook.com/hi9here">
+    <div class="card">
+      <div class="cardtop">
+        <img src="/images/facebook.com.png" alt="facebook.com/hi9here">
+      </div>
+      <div class="cardbottom">
+        <h1>facebook/hi9here</h1>
+      </div>
+    </div>
+    </a>
+
+    <a href="https://twitter.com/hi9here">
+    <div class="card">
+      <div class="cardtop">
+        <img src="/images/twitter.com.png" alt="twitter.com/hi9here">
+      </div>
+      <div class="cardbottom">
+        <h1>twitter.com/hi9here</h1>
+      </div>
+    </div>
+    </a>
+
+    </body>
+    
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'my-contactus'
+
+    });
+  </script>
+
+</dom-module>
