@@ -18,10 +18,19 @@
     app-box {
       height: 500px;
     }
+    .first {
+      --app-box-background-front-layer: {
+        background-image: url(/images/bg/kids-trading.jpg);
+        background-position: center;
+        padding-bottom: 120px;
+        margin-top: -20px;
+        height: 100%;
+      };
+    }
     .second {
       --app-box-background-front-layer: {
         background-image: url(//app-layout-assets.appspot.com/assets/bg2.jpg);
-        background-position: bottom;
+        background-position: center;
         padding-bottom: 120px;
         margin-top: -20px;
         height: 100%;
@@ -90,14 +99,8 @@
       <h1>Card Theory</h1>
       <h3>Universal Language of Sharing Information</h3>      
     </article>
-    <app-box effects="parallax-background">
-      <!-- 
-        app-box allows to style the mixin `--app-box-background-front-layer` or create a custom background in the light DOM.
-        In this case, we create a custom background by adding the attribute `background` to the `img` in 
-        the light DOM.
-      -->
-      <img background src="//app-layout-assets.appspot.com/assets/bg1.jpg" style="width:100%; height: 900px" />
-    </app-box>
+    <app-box class="first" 
+    effects="parallax-background"> </app-box>
   </section>
 
   <section>
