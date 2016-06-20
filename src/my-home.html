@@ -1,4 +1,4 @@
-<link rel="import" href="../bower_components/polymer/polymer.html">
+<!--<link rel="import" href="../bower_components/polymer/polymer.html">-->
 <link rel="import" href="../bower_components/app-layout/app-scroll-effects/effects/parallax-background.html">
 <link rel="import" href="../bower_components/app-layout/app-box/app-box.html">
 <link rel="import" href="../bower_components/app-layout/demo/sample-content.html">
@@ -16,11 +16,11 @@
       background-color: #eee;
     }
     app-box {
-      height: 340px;
+      height: 600px;
     }
     .first {
       --app-box-background-front-layer: {
-        background-image: url(//app-layout-assets.appspot.com/assets/bg2.jpg);
+        background-image: url(/images/bg/Croped/Individual.jpg);
         background-position: center;
         padding-bottom: 120px;
         margin-top: -20px;
@@ -29,7 +29,7 @@
     }
     .second {
       --app-box-background-front-layer: {
-        background-image: url(/images/bg/kids-trading.jpg);
+        background-image: url(/images/bg/Croped/kids-trading.jpg);
         background-position: bottom;
         padding-bottom: 120px;
         margin-top: -20px;
@@ -38,7 +38,7 @@
     }
     .third {
       --app-box-background-front-layer: {
-        background-image: url(//app-layout-assets.appspot.com/assets/bg3.jpg);
+        background-image: url(/images/bg/Croped/Families.jpg);
         background-position: center;
         padding-bottom: 120px;
         margin-top: -20px;
@@ -47,7 +47,25 @@
     }
     .fourth {
       --app-box-background-front-layer: {
-        background-image: url(//app-layout-assets.appspot.com/assets/bg4.jpg);
+        background-image: url(/images/bg/Croped/For-you.jpg);
+        background-position: bottom;
+        padding-bottom: 120px;
+        margin-top: -20px;
+        height: 100%;
+      };
+    }
+    .fifth {
+      --app-box-background-front-layer: {
+        background-image: url(/images/bg/Croped/Sharing.jpg);
+        background-position: bottom;
+        padding-bottom: 120px;
+        margin-top: -20px;
+        height: 100%;
+      };
+    }
+    .sixth {
+      --app-box-background-front-layer: {
+        background-image: url(/images/bg/Croped/Anyone.jpg);
         background-position: bottom;
         padding-bottom: 120px;
         margin-top: -20px;
@@ -99,7 +117,7 @@
       <hr />
       <h2>How It Works</h2>
       <p>Each deko has a max of 10 Websites represented as cards.</p>
-      <p>Each card is a link to the Website.</p>
+      <p>Each card is a link to a Website.</p>
       <p>You can Create, Share, Add and Organise your dekos how you wish </p>
     </article>
     <!-- 
@@ -134,7 +152,7 @@ Have a list of sites of all your social media profiles so your friends know all 
       <h2>For Family</h2>
       <p>Organise the sites that your family uses so they don’t need to search the web. You no longer have to be your parents tech support. </p>
     </article>
-    <app-box class="fourth" effects="parallax-background"></app-box>
+    <app-box class="fifth" effects="parallax-background"></app-box>
   </section>
 
    <section>
@@ -144,7 +162,7 @@ Have a list of sites of all your social media profiles so your friends know all 
       <p>Organise and share for co workers sites they should visit. Host and event and share information to the attendees quickly and easily. 
 </p>
     </article>
-    <app-box class="fourth" effects="parallax-background"></app-box>
+    <app-box class="sixth" effects="parallax-background"></app-box>
   </section>
 
 </body>

@@ -1,0 +1,17 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/Cellar/node/5.1.1/bin/node /usr/local/bin/firebase deploy
+[debug] Platform:     darwin
+[debug] Node Version: v5.1.1
+[debug] Time:         Mon Jun 20 2016 14:59:43 GMT+0100 (BST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/firebase/deko/token?token=XXX 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/firebase/deko/token?token=XXX 
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'deko'...
+[info] 
+[info] i  deploying hosting
+[info] i  preparing build/bundled directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/firebase/deko/uploads/-KKi60gmxbzdK2zCa2Ff?token=XXX&fileCount=636&message= 
