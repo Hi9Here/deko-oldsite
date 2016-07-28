@@ -159,6 +159,13 @@ Polymer({
   },
   goHome: function() {
     window.location.href = '/'
+  },
+  getCards: function(selected) {
+    var cards = []
+    for (var i = 0; i < selected.base.length; i++) {
+      cards.push(this.cards[selected.base[i]])
+    }
+    return cards
   }
 })
 </script>
