@@ -51,7 +51,10 @@
 Polymer({
   is: "add-card",
   properties: {
-    cards: {value:[{title:"card 1",url:"/"}]},
+    cards: {
+        type:Array,
+        value:[{"title":"a","url":"/"},{"title":"b","url":"/"},{"title":"c","url":"/"}],
+    },
     title: {value:"Hi9 Deko"},
     selectable: {value: false, type: Boolean},
     selectedCards: {computed: "getCards(selected.*)"},
