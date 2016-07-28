@@ -24,7 +24,7 @@
   <template>
     <center><h1>{{title}}</h1></center>
     <iron-localstorage name="addme" value="{{addme}}"></iron-localstorage>
-    <card-display id="cardDisplay" selected="{{selected}}" selectable cards="{{cards}}"></card-display>
+    <card-display id="cardDisplay" cards="{{cards}}"></card-display>
     <paper-toolbar style="position:fixed;bottom:0;right:0;width:100%">
       <span class="flex"></span>
       <template is="dom-if" if="{{selected.length}}">
