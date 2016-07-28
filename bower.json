@@ -5,7 +5,7 @@
   ],
   "private": true,
   "dependencies": {
-    "card-display": "marcus7777/card-display#master",
+    "card-display": "marcus7777/card-display",
     "iron-localstorage": "PolymerElements/iron-localstorage",
     "paper-button": "polymerelements/paper-button#~1.0.12",
     "paper-toolbar": "PolymerElements/paper-toolbar#~1.1.6",
