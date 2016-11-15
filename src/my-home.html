@@ -1,4 +1,3 @@
-<!--<link rel="import" href="../bower_components/polymer/polymer.html">-->
 <link rel="import" href="../bower_components/app-layout/app-scroll-effects/effects/parallax-background.html">
 <link rel="import" href="../bower_components/app-layout/app-box/app-box.html">
 <link rel="import" href="../bower_components/app-layout/demo/sample-content.html">
@@ -77,12 +76,6 @@
       text-align: center;
       margin: 100px auto;
     }
-    article h2 {
-      font-weight: 100;
-      font-size: 50px;
-      margin: 5px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
     article p {
       font-size: 18px;
     }
@@ -96,21 +89,52 @@
     p {
       margin: 0;
     }
+    	.heroelement {
+				display: inline-block;
+				vertical-align:top;
+				width: 45%;
+        margin: 20px;
+			}
+      #hero h2 {
+        font-weight: 100;
+        font-size: 50px;
+        margin: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      #hero h3 {
+        font-weight: 100;
+        margin: 0;
+      }
+			#hero {
+        text-align:center;
+			}
+			#herotext {
+				text-align: left;
+				margin: 20px 0px 0px 0px;
+			}
+			#heroimage {
+
+			}
+			#heroimage img {
+				height: 300px;
+				width:500px;
+			}
+			
   </style>
-</head>
+
 <body class="fullbleed" unresolved>
 
   <section>
-    <article>
-      <div id="logo">
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 649.75 250.18"><defs><style>.cls-1{font-size:231.91px;fill:#333;stroke:#333;stroke-miterlimit:10;font-family:Gill Sans;}.cls-2{letter-spacing:-6px;}.cls-3{fill:none;stroke:#f05455;stroke-width:14px;}</style></defs><title>deko-logo-slogon-master</title><text class="cls-1" transform="translate(187.8 196.12)">de<tspan class="cls-2" x="229.31" y="0">k</tspan><tspan x="333.49" y="0">o</tspan></text><rect class="cls-3" x="25.84" y="16.86" width="134.09" height="174.51"/><rect class="cls-3" x="7" y="34.04" width="134.09" height="174.51"/><text x="-27.38" y="-15.72"/></svg>
-      </div>
-        
-      <p>Shares & Organises Websites - Fast</p>
-      <p>Free to Get Started to Use with no account</p>      
-      <h2>LAUNCHING JUN 16</h2>
-      
-    </article>
+      <div id="hero">
+        <div id="heroimage" class="heroelement">
+          <img src="../images/gif/deko-desktop-v3.gif" alt="">
+        </div>  
+        <div id="herotext" class="heroelement">
+          <h2>Web Made Simple</h2>
+          <h3>Making the Web Accessable and Usable for Everyone</h3>   
+        </div>
+
+      </div> 
      <app-box class="first" 
     effects="parallax-background"> </app-box>
   </section>
